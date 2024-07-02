@@ -1,0 +1,120 @@
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 8px;
+  width: 100%;
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.match-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  font-family: 'Bree Serif';
+}
+.match-details-heading {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+.match-details-description {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.match-details-image {
+  height: 200px;
+  width: 100px;
+  flex-grow: 1;
+}
+.innings-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1;
+  font-family: 'Bree Serif';
+}
+.innings-details-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.innings-details-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (max-width: 995px) {
+  .latest-match-container {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .latest-match-container {
+    padding: 20px;
+  }
+  .match-details-heading {
+    font-size: 23px;
+  }
+  .match-details-description {
+    font-size: 15px;
+  }
+  .match-details-image {
+    height: 150px;
+    width: 80px;
+  }
+  .innings-details-heading {
+    font-size: 17px;
+  }
+  .innings-details-description {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .latest-match-container {
+    padding: 10px;
+  }
+  .match-details-heading {
+    font-size: 18px;
+  }
+  .match-details-description {
+    font-size: 12px;
+  }
+  .match-details-image {
+    height: 100px;
+    width: 50px;
+  }
+  .innings-details-heading {
+    font-size: 15px;
+  }
+  .innings-details-description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .latest-match-container {
+    padding: 5px;
+  }
+  .match-details-heading {
+    font-size: 10px;
+  }
+  .match-details-description {
+    font-size: 5px;
+  }
+  .match-details-image {
+    height: 80px;
+    width: 40px;
+  }
+  .innings-details-heading {
+    font-size: 10px;
+  }
+  .innings-details-description {
+    font-size: 5px;
+  }
+}
