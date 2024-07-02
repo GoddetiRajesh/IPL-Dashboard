@@ -108,13 +108,8 @@ class TeamMatches extends Component {
   }
 
   render() {
-    const {
-      teamBannerUrl,
-      latestMatch,
-      recentMatch,
-      isLoading,
-      data,
-    } = this.state
+    const {teamBannerUrl, latestMatch, recentMatch, isLoading} = this.state
+    const {data} = this.state
     const {match} = this.props
     const {params} = match
     const {id} = params
